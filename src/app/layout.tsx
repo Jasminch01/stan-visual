@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
 import { Crimson_Text } from "next/font/google";
 import "./globals.css";
+import Appbar from "@/components/Appbar";
 const crismonText = Crimson_Text({
   variable: "--font-Crismon_Text",
   subsets: ["latin"],
-  weight: "400"
+  weight: "400",
 });
 
 export const metadata: Metadata = {
@@ -19,9 +20,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${crismonText.className}`}
-      >
+      <body className={`${crismonText.className}`}>
+        <Appbar />
         {children}
       </body>
     </html>

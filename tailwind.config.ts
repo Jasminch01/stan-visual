@@ -17,6 +17,9 @@ export default {
         crimson_text: ["var(--font-Crismon_Text)"],
         moglanDemo: ["var(--font-moglanDemo)"],
       },
+      backgroundImage: {
+        hero: "url('/img/hero-banner.png')",
+      },
     },
   },
   plugins: [],
