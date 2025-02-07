@@ -9,8 +9,13 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        background: "",
+        foreground: "",
+      },
+      fontFamily: {
+        oswald: ["var(--font-Oswald)"],
+        crimson_text: ["var(--font-Crismon_Text)"],
+        moglanDemo: ["var(--font-moglanDemo)"],
       },
     },
   },

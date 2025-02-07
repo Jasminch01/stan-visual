@@ -1,5 +1,9 @@
+import About from "@/components/Landing/About";
+
 export default function Home() {
   return (
-    <div className=""></div>
+    <div className="">
+      <About/>
+    </div>
   );
 }
