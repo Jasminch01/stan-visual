@@ -19,6 +19,7 @@ export default {
       },
       backgroundImage: {
         hero: "url('/img/hero-banner.png')",
+        about_top: "url('/img/Group.png')",
       },
     },
   },

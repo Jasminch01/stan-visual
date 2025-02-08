@@ -1,12 +1,7 @@
 import type { Metadata } from "next";
-import { Crimson_Text } from "next/font/google";
 import "./globals.css";
 import Appbar from "@/components/Appbar";
-const crismonText = Crimson_Text({
-  variable: "--font-Crismon_Text",
-  subsets: ["latin"],
-  weight: "400",
-});
+import { crismonText } from "./font";
 
 export const metadata: Metadata = {
   title: "Susnata Chakma",
