@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Appbar from "@/components/Appbar";
 import { crismonText } from "./font";
+import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: "Susnata Chakma",
@@ -21,6 +22,7 @@ export default function RootLayout({
       <body className={`${crismonText.className}`}>
         <Appbar />
         {children}
+        <Footer/>
       </body>
     </html>
   );
