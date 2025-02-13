@@ -27,7 +27,7 @@ const SpcialDay = () => {
             />
           </div>
 
-          <div className="mt-32 flex space-x-[6.5rem]">
+          <div className="mt-32 flex flex-col md:flex-row space-x-[6.5rem]">
             <div className="px-4 pt-4 bg-white rounded-t">
               <Image
                 src={"/img/photo-5.jpg"}

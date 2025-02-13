@@ -12,8 +12,8 @@ const oswald = Oswald({
 const Appbar = () => {
   return (
     <header className={`${oswald.className} absolute top-0 left-0 w-full z-20`}>
-      <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
-      <nav className="flex gap-6 text-white text-sm uppercase tracking-[0.3em] font-light">
+      <div className="max-w-6xl mx-auto px-6 py-4 md:flex hidden justify-between items-center">
+        <nav className="flex gap-6 text-white text-sm uppercase tracking-[0.3em] font-light">
           <Link href="/stories">
             <span className="cursor-pointer">Stories</span>
           </Link>

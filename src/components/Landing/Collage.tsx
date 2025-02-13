@@ -4,7 +4,7 @@ import React from "react";
 const Collage = () => {
   return (
     <div className="relative overflow-hidden w-full">
-      <div className="grid grid-cols-3">
+      <div className="lg:grid grid-cols-3">
         {/* First Image */}
         <div className="row-span-5 relative">
           <Image
@@ -23,7 +23,7 @@ const Collage = () => {
         </div>
 
         {/* Second Image */}
-        <div className="col-span-2 row-span-3 relative">
+        <div className="lg:col-span-2 lg:row-span-3 relative">
           <Image
             src={"/img/photo1.png"}
             alt="susnat-image"
@@ -40,7 +40,7 @@ const Collage = () => {
         </div>
 
         {/* Third Image */}
-        <div className="row-span-2 col-start-2 row-start-4 relative">
+        <div className="lg:row-span-2 lg:col-start-2 row-start-4 relative">
           <Image
             src={"/img/photo2.png"}
             alt="susnat-image"
@@ -57,7 +57,7 @@ const Collage = () => {
         </div>
 
         {/* Fourth Image */}
-        <div className="row-span-2 col-start-3 row-start-4 relative">
+        <div className="lg:row-span-2 lg:col-start-3 row-start-4 relative">
           <Image
             src={"/img/photo-3.png"}
             alt="susnat-image"

@@ -21,11 +21,11 @@ const Brand = () => {
   return (
     <div className="py-20">
       <div>
-        <p className={`text-center ${moglanDemo.className} text-5xl tracking-[1.04px]`}>
+        <p className={`text-center ${moglanDemo.className} lg:text-5xl text-3xl tracking-[1.04px]`}>
           BRAND COLLABORATIONS
         </p>
         <div className="flex justify-center mt-20">
-          <div className="flex justify-between items-end space-x-32">
+          <div className="flex lg:flex-row flex-col justify-between items-end lg:space-x-32 space-y-10 lg:space-y-0">
             {brands.map((brand, idx) => (
               <Image
                 key={idx}

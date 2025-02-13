@@ -49,8 +49,8 @@ const Testimonial = () => {
       <div className="bg-[#C1C1C1] py-20 relative h-[30rem]">
         {/* Testimonial */}
         <div className="flex justify-center absolute -top-10 left-1/2 transform -translate-x-1/2">
-          <div className="flex">
-            <div className="bg-white flex justify-center rounded-tl-[60px] shadow-lg rounded-br-[60px] px-20 h-[418px]">
+          <div className="flex md:flex-row flex-col-reverse">
+            <div className="bg-white flex justify-center rounded-tl-[60px] shadow-lg rounded-br-[60px] md:px-20 px-5 md:h-[418px]">
               <div className="flex justify-center items-center relative">
                 <div className="absolute top-10 -right-8">
                   <Star />
@@ -60,7 +60,7 @@ const Testimonial = () => {
                     Lorena Sabastian
                   </p>
                   <p
-                    className={`${crismonText.className} text-justify tracking-[0.6px] w-[335px] h-[136px]`}
+                    className={`${crismonText.className} text-justify tracking-[0.6px] md:w-[335px] md:h-[136px]`}
                   >
                     I want to express my heartfelt thanks for the stunning video
                     and photos you captured for our engagement. Each image is a

@@ -9,7 +9,7 @@ const Footer = () => {
   return (
     <div className="bg-[#181818] py-32 relative">
       <div className="max-w-7xl mx-auto grid grid-cols-1 gap-4 md:grid-cols-2 2xl:grid-cols-4 font-semibold text-center lg:text-center 2xl:text-left">
-        <div>
+        <div className="flex justify-center">
           <Image
             src={"/logo.png"}
             width={100}
@@ -19,7 +19,7 @@ const Footer = () => {
         </div>
         <div className="text-white">
           <h3
-            className={`"font-display text-2xl" ${moglanDemo.className} text-2xl`}
+            className={`font-display text-2xl" ${moglanDemo.className} text-2xl`}
           >
             Get In Touch
           </h3>

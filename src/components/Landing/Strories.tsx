@@ -4,36 +4,43 @@ import React from "react";
 
 const Strories = () => {
   return (
-    <div className="flex justify-between items-center max-w-7xl mx-auto space-x-20 py-24">
+    <div className="flex md:flex-row flex-col-reverse justify-between items-center max-w-7xl mx-auto md:space-x-20 space-y-20 py-24">
       <div className="flex-1 justify-start">
-        <p className={`${moglanDemo.className} text-4xl mb-10 relative`}>
-          BEUTIFUL WORDS{" "}
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="50"
-            height="50"
-            viewBox="0 0 62 58"
-            fill="none"
-            className="absolute -top-5 -right-10"
+        <div className="px-10">
+          <p
+            className={`${moglanDemo.className} text-4xl mb-10 relative mt-20 text-center md:text-left`}
           >
-            <path
-              d="M37.5 0L40.1333 21.8667L62 24.5L40.1333 27.1333L37.5 49L34.8667 27.1333L13 24.5L34.8667 21.8667L37.5 0Z"
-              fill="black"
-            />
-            <path
-              d="M19 20L21.0421 36.9579L38 39L21.0421 41.0421L19 58L16.9579 41.0421L0 39L16.9579 36.9579L19 20Z"
-              fill="black"
-            />
-          </svg>
-        </p>
-        <p className={`text-justify ${crismonText.className} text-2xl tracking-[2.08px] text-[#2E2E2E]`}>
-          Lorena and Sebastian love story is a testament to the power of
-          soulmate connections. they found in each other a love that transcends
-          time and space, a love that has the ability to withstand any challenge
-          that comes their way. Their engagement marks the beginning of a
-          lifelong journey together, a journey filled with passion, devotion,
-          and a love that burns brighter with each passing day.
-        </p>
+            BEUTIFUL WORDS{" "}
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="50"
+              height="50"
+              viewBox="0 0 62 58"
+              fill="none"
+              className="absolute -top-5 md:-right-10 -right-5"
+            >
+              <path
+                d="M37.5 0L40.1333 21.8667L62 24.5L40.1333 27.1333L37.5 49L34.8667 27.1333L13 24.5L34.8667 21.8667L37.5 0Z"
+                fill="black"
+              />
+              <path
+                d="M19 20L21.0421 36.9579L38 39L21.0421 41.0421L19 58L16.9579 41.0421L0 39L16.9579 36.9579L19 20Z"
+                fill="black"
+              />
+            </svg>
+          </p>
+          <p
+            className={`text-justify ${crismonText.className} text-2xl tracking-[2.08px] text-[#2E2E2E]`}
+          >
+            Lorena and Sebastian love story is a testament to the power of
+            soulmate connections. they found in each other a love that
+            transcends time and space, a love that has the ability to withstand
+            any challenge that comes their way. Their engagement marks the
+            beginning of a lifelong journey together, a journey filled with
+            passion, devotion, and a love that burns brighter with each passing
+            day.
+          </p>
+        </div>
       </div>
       <div className="flex-1 relative">
         <svg
@@ -54,7 +61,7 @@ const Strories = () => {
           alt="story-image"
           width={500}
           height={500}
-          className="bg-cover"
+          className="bg-cover w-[350px] md:w-[500px]"
         />
         <svg
           xmlns="http://www.w3.org/2000/svg"

@@ -12,7 +12,7 @@ const About = () => {
           alt="group"
           width={1000}
           height={1000}
-          className="w-full -rotate-[25deg]"
+          className="w-full -rotate-[25deg] hidden md:block"
           objectFit="cover"
         />
       </div>
@@ -22,15 +22,15 @@ const About = () => {
           alt="group"
           width={1000}
           height={1000}
-          className="w-full -rotate-[30deg]"
+          className="w-full -rotate-[30deg] hidden md:block"
           objectFit="cover"
         />
       </div>
 
       {/* marquee image */}
-      <div className="md:flex space-x-20 items-center ">
+      <div className="md:flex lg:space-x-20 items-center px-10 lg:px-0">
         {/* Left: Image */}
-        <div className="flex-1 z-10">
+        <div className="flex-1 z-10 mt-10 lg:mt-0">
           <Image
             className="w-full"
             src={"/img/susnata-profile.png"}
@@ -45,10 +45,10 @@ const About = () => {
           {/* Image Positioned at Top-Left */}
 
           {/* Text Content */}
-          <div className="mt-52">
-            <p className={`${moglanDemo.className} text-5xl`}>WHY CHOOSE ME?</p>
+          <div className="lg:mt-52 py-20 lg:py-0">
+            <p className={`${moglanDemo.className} lg:text-5xl text-3xl`}>WHY CHOOSE ME?</p>
             <p
-              className={`${crismonText.className} italic text-2xl w-[541px] text-justify mt-7`}
+              className={`${crismonText.className} italic lg:text-2xl text-xl lg:w-[541px] text-justify mt-7`}
             >
               I am Stan Chakma, a passionate photographer with over 8 years of
               experience in capturing stunning, personalized images. Let&apos;s
